@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
 </head>
 
@@ -17,108 +17,148 @@
         <article>
             <div class="container">
                 <div class="wrapper">
-                    <section class="contacts">
-                        <img class="contacts__image" src="./images/oleksandr-usachov.jpg" alt="oleksaner usachov">
-                        <ul class="contacts__info">
-                            <li class="without-disc">
-                                <h2>Contacts</h2>
-                                <ul>
-                                    <li class="without-disc">C: <a class="links" href="tel:+380633642290">+380 63
-                                            364 22 90</a></li>
-                                    <li class="without-disc">E: <a class="links"
-                                            href="mailto:alexxxusache888@gmail.com">alexxxusache888@gmail.com</a></li>
+                    <aside class="sidebar">
+                        <img class="sidebar__image" src="./images/oleksandr-usachov.jpg" alt="oleksaner usachov">
+                        <div class="sidebar__info">
+
+                            <address class="sidebar__contacts">
+                                <h2 class="sidebar__title">Contacts</h2>
+                                <p>
+                                    <span class="sidebar__contacts-type">C:</span>
+                                    <a class="sidebar__contacts-link" href="tel:+380633642290">+380 63 364 22 90</a>
+                                </p>
+                                <p>
+                                    <span class="sidebar__contacts-type">E:</span>
+                                    <a class="sidebar__contacts-link"
+                                        href="mailto:alexxxusachev888@gmail.com">alexxxusachev888@gmail.com</a>
+                                </p>
+                            </address>
+
+                            <div class="sidebar__tech-skills">
+                                <h2 class="sidebar__title">Tech Skills</h2>
+                                <ul class="sidebar__list">
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">HTML5</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">CSS3</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">JavaScript</span>
+                                    </li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">React.js</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Node.js</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">GIT</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">WebPack</span></li>
                                 </ul>
-                            </li>
-                            <li class="contacts__skills without-disc ">
-                                <h2>Tech Skills</h2>
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>JavaScript</li>
-                                    <li>React.js</li>
-                                    <li>Node.js</li>
-                                    <li>GIT</li>
-                                    <li>WebPack</li>
+                            </div>
+
+                            <div class="sidebar__soft-skills">
+                                <h2 class="sidebar__title">Soft Skills</h2>
+                                <ul class="sidebar__list">
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Scrum</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Agile</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">GTD</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Teamwork</span></li>
                                 </ul>
-                            </li>
-                            <li class="contacts__skills without-disc">
-                                <h2>Soft Skills</h2>
-                                <ul>
-                                    <li>Scrum</li>
-                                    <li>Agile</li>
-                                    <li>GTD</li>
-                                    <li>Teamwork</li>
+                            </div>
+
+                            <div class="sidebar__english-level">
+                                <h2 class="sidebar__title">Level of English</h2>
+                                <ul class="sidebar__list">
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Upper-Intermediate
+                                            (FCE 2022)</span></li>
+                                    <li class="sidebar__list-item"><span class="sidebar__item-text">Lower Advanced
+                                            (Current)</span></li>
                                 </ul>
-                            </li>
-                            <li class="contacts__skills without-disc">
-                                <h2>Level of English</h2>
-                                <ul>
-                                    <li>Upper-Intermediate (FCE 2022)</li>
-                                    <li>Lower Advanced (Current)</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="main">
-                        <b>Front-End Developer</b>
-                        <h1>Oleksandr Usachov</h1>
-                        <p class="main__descr"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut
-                            labore
-                            et dolore magna
-                            aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-                            lacus
-                            vel
-                            facilisis. </p>
-                        <h2>Projects</h2>
-                        <ol>
-                            <li>https://hellenglish.goit.global/....................[ HTML5, CSS3 ]</li>
-                            <li>https://cryptohub.goit.global/......................[ JavaScript ]</li>
-                            <li>https://kidslike.goit.global/.......................[ React.js, Node.js ]</li>
-                        </ol>
-                        <h2>Work Experience</h2>
-                        <ul class="main__work">
-                            <li class="without-disc">
-                                <h3>Front-End Developer <span>Freelance</span></h3>
-                                <p class="main__terms">September 2019 - up to now | Country</p>
-                                <ul class="main__work-list">
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                                    <li>Risus commodo viverra maecenas. </li>
-                                </ul>
-                            </li>
-                            <li class="without-disc">
-                                <h3>Manager <span>Roga & Kopyta New</span></h3>
-                                <p class="main__terms">March 2015 - October 2018 | Country</p>
-                                <ul class="main__work-list">
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                                    <li>Risus commodo viverra maecenas. </li>
-                                </ul>
-                            </li>
-                            <li class="without-disc">
-                                <h3>Manager <span>Roga & Kopyta LLC</span></h3>
-                                <p class="main__terms">June 2014 - February 2015 | Country</p>
-                                <ul class="main__work-list">
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-                                    <li>Quis ipsum suspendisse ultrices gravida.</li>
-                                    <li>Risus commodo viverra maecenas. </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <h2>Education</h2>
-                        <ul class="main__education">
-                            <li class="without-disc">
-                                <h3><span>National University of Radioelectronics</span></h3>
-                                <b>Management</b>
-                                <p class="main__terms">September 2009 - June 2014 | Country</p>
-                            </li>
-                            <li class="without-disc">
-                                <h3><span>National University of Radioelectronics</span></h3>
-                                <b>Management</b>
-                                <p class="main__terms">September 2009 - June 2014 | Country</p>
-                            </li>
-                        </ul>
+                            </div>
+
+                        </div>
+                    </aside>
+                    <section class="content">
+
+                        <div class="content__about">
+                            <h2 class="content__subtitle">Full Stack Developer</h2>
+                            <h1 class="content__title">Oleksandr Usachov</h1>
+                            <p class="content__descr"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do
+                                eiusmod
+                                tempor incididunt ut
+                                labore
+                                et dolore magna
+                                aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                                lacus
+                                vel
+                                facilisis.
+                            </p>
+                        </div>
+
+                        <div class="content__projects">
+                            <h2 class="content__subtitle">Projects</h2>
+                            <ol class="content__list-ol">
+                                <li class="content__highlight-black">
+                                    <span class="content__link-wrap"><a class="content__link"
+                                            href="">https://hellenglish.goit.global/</a>....................<span
+                                            class="content__highlight-black">[</span>
+                                        HTML5, CSS3 <span class="content__highlight-black">]</span></span>
+                                </li>
+                                <li class="content__highlight-black">
+                                    <span class="content__link-wrap"><a class="content__link"
+                                            href="">https://cryptohub.goit.global/</a>......................<span
+                                            class="content__highlight-black">[</span>
+                                        JavaScript <span class="content__highlight-black">]</span></span>
+                                </li>
+                                <li class="content__highlight-black">
+                                    <span class="content__link-wrap"><a class="content__link"
+                                            href="">https://kidslike.goit.global/</a>.......................<span
+                                            class="content__highlight-black">[</span>
+                                        React.js,
+                                        Node.js <span class="content__highlight-black">]</span></span>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="content__experience">
+                            <h2 class="content__subtitle">Work Experience</h2>
+                            <ul class="content__list-ul">
+                                <li class="content__list-item without-disc">
+                                    <h3 class="content__list-title">Front-End Developer <span
+                                            class="content__highlight">Freelance</span></h3>
+                                    <p class="content__list-terms">September 2019 - up to now | Country</p>
+                                    <ul class="content__list-inner">
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                                        <li>Risus commodo viverra maecenas. </li>
+                                    </ul>
+                                </li>
+                                <li class="content__list-item without-disc">
+                                    <h3 class="content__list-title">Manager <span class="content__highlight">Roga &
+                                            Kopyta New</span></h3>
+                                    <p class="content__list-terms">March 2015 - October 2018 | Country</p>
+                                    <ul class="content__list-inner">
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                                        <li>Risus commodo viverra maecenas. </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content__education">
+                            <h2 class="content__subtitle">Education</h2>
+                            <ul class="content__list-ul">
+                                <li class="content__list-item without-disc">
+                                    <h3 class="content__list-title"><span class="content__highlight">National University
+                                            of
+                                            Radioelectronics</span></h3>
+                                    <p class="content__list-descr">Management</p>
+                                    <p class="content__list-terms">September 2009 - June 2014 | Country</p>
+                                </li>
+                                <li class="content__list-item without-disc">
+                                    <h3 class="content__list-title"><span class="content__highlight">National University
+                                            of
+                                            Radioelectronics</span></h3>
+                                    <p class="content__list-descr">Management</p>
+                                    <p class="content__list-terms">September 2009 - June 2014 | Country</p>
+                                </li>
+                            </ul>
+                        </div>
+
                     </section>
                 </div>
             </div>

@@ -1,0 +1,54 @@
+.sidebar {
+    padding-top: 40px;
+    min-width: 370px;
+    background-color: $additional-bg-color;
+    color: $white-text-color;
+
+    &__image {
+        margin-bottom: 51px;
+    }
+
+    &__info {
+        margin-left: 40px;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    &__contacts-link {
+        text-decoration: none;
+        color: $white-text-color;
+        opacity: 0.5;
+    }
+
+    &__contacts-type {
+        margin-right: 10px;
+    }
+
+    &__list {
+        padding-left: 20px;
+    }
+
+    &__list-item {
+        color: $secondary-text-color;
+
+    }
+
+    &__item-text {
+        color: $white-text-color;
+    }
+
+    &__item-text:hover {
+        color: $secondary-text-color;
+    }
+
+    &__contacts,
+    &__tech-skills,
+    &__soft-skills {
+        margin-bottom: 35px;
+    }
+}
