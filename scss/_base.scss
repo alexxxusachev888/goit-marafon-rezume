@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: $page-bg-color;
+    background-color: $decor-bg-color;
     color: $primary-text-color;
     line-height: 1.22;
 }
@@ -29,11 +29,11 @@ address {
 
 .container {
     width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
 
     margin-left: auto;
     margin-right: auto;
+
+    background-color: $page-bg-color;
 }
 
 .wrapper {
